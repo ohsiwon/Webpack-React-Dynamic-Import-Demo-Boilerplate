@@ -5,7 +5,7 @@ import Knife from '../Weapons/Knife';
 // import Shotgun from '../Weapons/Shotgun';
 
 const Shotgun = Loadable({
-  loader: () => import('../Weapons/Shotgun'),
+  loader: () => import('../Weapons/Shotgun' /* webpackChunkName: 'Shotgun' */),
   loading: LoadingMessage,
 });
 

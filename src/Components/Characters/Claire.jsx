@@ -5,7 +5,7 @@ import Knife from '../Weapons/Knife';
 // import Magnum from '../Weapons/Magnum';
 
 const Magnum = Loadable({
-  loader: () => import('../Weapons/Magnum'),
+  loader: () => import('../Weapons/Magnum' /* webpackChunkName: 'Magnum' */),
   loading: LoadingMessage,
 });
 

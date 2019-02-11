@@ -12,17 +12,17 @@ import style from './style.scss?module';
 const Index = () => <h2>Choose the characters</h2>;
 
 const Leon = Loadable({
-  loader: () => import('../Components/Characters/Leon'),
+  loader: () => import('../Components/Characters/Leon' /* webpackChunkName: "Leon" */),
   loading: LoadingMessage,
 });
 
 const Claire = Loadable({
-  loader: () => import('../Components/Characters/Claire'),
+  loader: () => import('../Components/Characters/Claire' /* webpackChunkName: "Claire" */),
   loading: LoadingMessage,
 });
 
 const Chris = Loadable({
-  loader: () => import('../Components/Characters/Chris'),
+  loader: () => import('../Components/Characters/Chris' /* webpackChunkName: "Chris" */),
   loading: LoadingMessage,
 });
 
