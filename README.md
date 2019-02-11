@@ -20,7 +20,7 @@ Pre-configured webpack with
 
 * These splitted chunk files are generated through dynamic import **except knife**
 * Knife is directly imported from 3 characters but splitted out from main chunk file because [minChunks](https://webpack.js.org/plugins/split-chunks-plugin/#splitchunks-minchunks) value is 2.
-* Knife is saved to `default.js` chunk which it can be shared with any script that imported directly more than one component.
+* Knife is saved to `default.js` chunk which it can be shared with any scripts that imported directly from one component.
 
 ---
 
