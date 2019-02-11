@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <h2>
+    Chris Redfield
+  </h2>
+  <ul>
+    <li>
+      <div>
+        Knife
+      </div>
+    </li>
+    <li>
+      <div>
+        Now loading...
+      </div>
+    </li>
+  </ul>
+</div>
+`;

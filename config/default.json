@@ -1,0 +1,17 @@
+{
+  "webpack": {
+    "eslintCache": false,
+    "eslintEmitWarning": true,
+    "mode": "development",
+    "open": true,
+    "output": {
+      "path": "dist",
+      "scripts": "scripts",
+      "styles": "styles"
+    },
+    "publicPath": "/",
+    "sourcemap": "cheap-module-eval-source-map",
+    "uglify": false,
+    "vendorsCodeSplitting": false
+  }
+}

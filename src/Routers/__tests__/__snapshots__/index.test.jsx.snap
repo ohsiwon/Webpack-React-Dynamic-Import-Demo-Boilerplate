@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="container"
+>
+  <nav
+    className="nav"
+  >
+    <ul>
+      <li>
+        <a
+          aria-current="page"
+          className="navItem navItemSelected"
+          href="#/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Main
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          className="navItem"
+          href="#/leon/"
+          onClick={[Function]}
+        >
+          Leon
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          className="navItem"
+          href="#/claire/"
+          onClick={[Function]}
+        >
+          Claire
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          className="navItem"
+          href="#/chris/"
+          onClick={[Function]}
+        >
+          Chris
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <h2>
+    Choose the characters
+  </h2>
+</div>
+`;

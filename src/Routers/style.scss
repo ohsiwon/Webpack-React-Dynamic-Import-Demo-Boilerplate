@@ -1,0 +1,22 @@
+.container {
+  margin: 20px 0 0 20px;
+}
+
+.nav {
+  > ul {
+    padding: 0;
+    list-style: none;
+    li {
+      display: inline-block;
+    }
+  }
+}
+
+.navItem {
+  color: DimGray;
+  margin: 0 10px;  
+}
+
+.navItemSelected {
+  color: Navy;
+}
