@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{282:function(n,e,t){"use strict";t.r(e);var u=t(2),o=t.n(u);e.default=function(){return o.a.createElement("div",null,"Shotgun")}}}]);
+//# sourceMappingURL=Shotgun.4ec679a8.js.map

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{277:function(e,n,l){"use strict";l.r(n);var t=l(2),a=l.n(t),u=l(62),r=l.n(u),c=l(63),i=l(279),d=r()({loader:function(){return l.e(6).then(l.bind(null,282))},loading:c.a});n.default=function(){return a.a.createElement("div",null,a.a.createElement("h2",null,"Chris Redfield"),a.a.createElement("ul",null,a.a.createElement("li",null,a.a.createElement(i.a,null)),a.a.createElement("li",null,a.a.createElement(d,null))))}}}]);
+//# sourceMappingURL=Chris.b6ec5f52.js.map
