@@ -5,7 +5,9 @@ Pre-configured webpack with
 * **Demo of using dynamic import and code splitting**
 * Basic essentials (eslint, jest, sass, cssModule)
 * Vendor code splitting (Optional)
-* This Demo is using [React-loadable](https://github.com/jamiebuilds/react-loadable). <br/>However, code splitting is also working with React.lazy or any other dynamic import methods.
+
+This Demo is using [React-loadable](https://github.com/jamiebuilds/react-loadable) to import component dynamically.<br/>
+However, code splitting is also working with React.lazy and any other component or library using dynamic import.
 
 #### Demo
 [Click here to open demo page](https://ohsiwon.github.io/Webpack-React-Dynamic-Import-Boilerplate/example)
