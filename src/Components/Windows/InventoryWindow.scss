@@ -1,0 +1,9 @@
+.container {
+  border: 5px solid black;
+  display: inline-grid;
+  background-color: #000e57;
+  grid-template-columns: repeat(2, 120px [inventory-col]);
+  grid-template-rows: repeat(4, 60px [inventory-row]);
+  grid-gap: 5px;
+  padding: 5px;
+}
