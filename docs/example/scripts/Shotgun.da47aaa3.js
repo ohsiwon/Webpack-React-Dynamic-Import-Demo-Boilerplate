@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{288:function(n,t,o){"use strict";o.r(t);var u=o(2),e=o.n(u),s=o(289),a=o.n(s);t.default=function(){return e.a.createElement("div",{className:a.a.shotgun},"Shotgun")}},289:function(n,t,o){n.exports={shotgun:"Shotgun__shotgun--3T4j7A09"}}}]);
+//# sourceMappingURL=Shotgun.da47aaa3.js.map

@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{279:function(n,e,i){"use strict";var t=i(2),a=i.n(t);e.a=function(){return a.a.createElement("div",null,"Knife")}}}]);
-//# sourceMappingURL=default.7f293a84.js.map
