@@ -3,18 +3,7 @@ import Loadable from 'react-loadable';
 import LoadingMessage from 'Components/Common/LoadingMessage';
 import InventoryWindow from 'Components/Windows/InventoryWindow';
 import Knife from 'Components/Weapons/Knife';
-// import Handgun from 'Components/Weapons/Handgun';
-// import Magnum from 'Components/Weapons/Magnum';
-
-const Handgun = Loadable({
-  loader: () => import('../Weapons/Handgun' /* webpackChunkName: 'Handgun' */),
-  loading: LoadingMessage,
-});
-
-const Magnum = Loadable({
-  loader: () => import('../Weapons/Magnum' /* webpackChunkName: 'Magnum' */),
-  loading: LoadingMessage,
-});
+import Handgun from 'Components/Weapons/Handgun';
 
 const Leon = () => {
   const name = 'Leon Scott Kennedy';
@@ -25,7 +14,6 @@ const Leon = () => {
       <InventoryWindow>
         <Knife />
         <Handgun />
-        <Magnum />
       </InventoryWindow>
     </div>
   );

@@ -11,24 +11,9 @@ import style from './style.scss?module';
 
 const Index = () => <h2>Choose the characters</h2>;
 
-// import Leon from 'Components/Characters/Leon';
-// import Claire from 'Components/Characters/Claire';
-// import Chris from 'Components/Characters/Chris';
-
-const Leon = Loadable({
-  loader: () => import('Components/Characters/Leon' /* webpackChunkName: "Leon" */),
-  loading: LoadingMessage,
-});
-
-const Claire = Loadable({
-  loader: () => import('Components/Characters/Claire' /* webpackChunkName: "Claire" */),
-  loading: LoadingMessage,
-});
-
-const Chris = Loadable({
-  loader: () => import('Components/Characters/Chris' /* webpackChunkName: "Chris" */),
-  loading: LoadingMessage,
-});
+import Leon from 'Components/Characters/Leon';
+import Claire from 'Components/Characters/Claire';
+import Chris from 'Components/Characters/Chris';
 
 const AppRouter = () => (
   <Router>
