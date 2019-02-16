@@ -5,17 +5,17 @@ exports[`renders correctly 1`] = `
   <h2>
     Chris Redfield
   </h2>
-  <ul>
-    <li>
-      <div>
-        Knife
-      </div>
-    </li>
-    <li>
-      <div>
-        Now loading...
-      </div>
-    </li>
-  </ul>
+  <div
+    className="container"
+  >
+    <div
+      className="knife"
+    >
+      Knife
+    </div>
+    <div>
+      Now loading...
+    </div>
+  </div>
 </div>
 `;
