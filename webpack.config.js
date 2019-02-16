@@ -144,7 +144,7 @@ const webpackConfig = {
             const re = /[\\/]node_modules[\\/](.*?)([\\/]|$)/;
             const packageName = module.context.match(re)[1];
             return `vendors/pkg.${packageName.replace('@', '')}`;
-          } : 'venders',
+          } : 'vendors',
           priority: -10,
         },
 
