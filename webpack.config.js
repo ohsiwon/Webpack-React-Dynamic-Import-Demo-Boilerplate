@@ -134,11 +134,11 @@ const webpackConfig = {
   ],
   optimization: {
     splitChunks: {
+      chunks: 'all',
+      maxInitialRequests: Infinity,
       cacheGroups: {
         vendors: {
           test: /[\\/]node_modules[\\/]/,
-          chunks: 'all',
-          maxInitialRequests: Infinity,
           minSize: 0,
           name: config.get('webpack.vendorsCodeSplitting') ? (module) => {
             const re = /[\\/]node_modules[\\/](.*?)([\\/]|$)/;
@@ -150,7 +150,6 @@ const webpackConfig = {
 
         default: {
           name: 'default',
-          chunks: 'all',
           minChunks: 2,
           reuseExistingChunk: true,
           enforce: true,
