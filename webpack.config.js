@@ -147,6 +147,14 @@ const webpackConfig = {
           } : 'venders',
           priority: -10,
         },
+
+        default: {
+          name: 'default',
+          minChunks: 2,
+          reuseExistingChunk: true,
+          enforce: true,
+          priority: -20,
+        },
       },
     },
     minimizer: [
