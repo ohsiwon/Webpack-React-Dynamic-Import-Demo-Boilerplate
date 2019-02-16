@@ -1,8 +1,9 @@
 {
-  "name": "Webpack-React-Dynamic-import-Boilerplate",
+  "name": "Webpack-React-Dynamic-Import-Demo-Boilerplate",
   "version": "1.0.0",
-  "description": "React based boilerplate focused on Dynamic import and code splitting",
+  "description": "React based boilerplate and demo focused on Dynamic import and code splitting",
   "main": "dist/index.html",
+  "homepage": "https://github.com/ohsiwon/Webpack-React-Dynamic-Import-Demo-Boilerplate",
   "scripts": {
     "start": "cross-env NODE_ENV=production node server.js",
     "build": "cross-env NODE_ENV=production webpack",
@@ -16,7 +17,8 @@
     "Dynamic import",
     "Code Splitting",
     "Loadable",
-    "Boilerplate"
+    "Boilerplate",
+    "Demo"
   ],
   "author": "Sean Oh",
   "license": "MIT",
