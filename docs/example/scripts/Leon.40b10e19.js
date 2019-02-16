@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{276:function(e,n,l){"use strict";l.r(n);var t=l(2),a=l.n(t),u=l(62),r=l.n(u),c=l(63),o=l(280),i=l(281),d=r()({loader:function(){return l.e(3).then(l.bind(null,285))},loading:c.a}),m=r()({loader:function(){return l.e(5).then(l.bind(null,282))},loading:c.a});n.default=function(){return a.a.createElement("div",null,a.a.createElement("h2",null,"Leon Scott Kennedy"),a.a.createElement(o.a,null,a.a.createElement(i.a,null),a.a.createElement(d,null),a.a.createElement(m,null)))}}}]);
+//# sourceMappingURL=Leon.40b10e19.js.map
