@@ -1,4 +1,7 @@
-## Webpack + React Dynamic Import Boilerplate
+## Webpack + React Dynamic Import Demo Boilerplate
+
+#### Related article
+[Code-splitting with dynamic import — Test and Learn](https://medium.com/@ohsiwon/code-splitting-with-dynamic-import-test-and-learn-28bc2a06d1b8)
 
 #### Features
 Pre-configured webpack with
