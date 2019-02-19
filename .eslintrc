@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "jest": true,
   },
   "extends": "airbnb",
   "parser": "babel-eslint",
@@ -9,10 +10,16 @@
     "react-hooks"
   ],
   "rules": {
+    "react/jsx-filename-extension": 0,
     "react-hooks/rules-of-hooks": "error",
     "import/no-unresolved": [2, { ignore: ['\.(css|scss)\?module'] }]
   },
   "settings" : {
+    "import/resolver": {
+      "babel-module": {
+        "extensions": [".js", ".jsx"]
+      }
+    }  
   }
 
 }
