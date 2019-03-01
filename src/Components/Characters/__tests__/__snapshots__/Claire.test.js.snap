@@ -13,8 +13,10 @@ exports[`renders correctly 1`] = `
     >
       Knife
     </div>
-    <div>
-      Now loading...
+    <div
+      className="loadingMessage"
+    >
+      Loading...
     </div>
   </div>
 </div>
