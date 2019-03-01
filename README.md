@@ -1,5 +1,7 @@
 ## Webpack + React Dynamic Import Demo Boilerplate
 
+<img src="https://travis-ci.org/ohsiwon/Webpack-React-Dynamic-Import-Demo-Boilerplate.svg?branch=master"/>
+
 #### Related article
 [Code-splitting with dynamic import — Test and Learn](https://medium.com/@ohsiwon/code-splitting-with-dynamic-import-test-and-learn-28bc2a06d1b8)
 
@@ -53,4 +55,3 @@ import from './style.scss'; // default
 import style from './style.scss?module'; //cssModule
 ```
 cssModule can be used together with regular CSS.
-
