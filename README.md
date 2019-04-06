@@ -15,7 +15,7 @@ This Demo is using [React-loadable](https://github.com/jamiebuilds/react-loadabl
 However, code splitting is also working with React.lazy and any other component or library using dynamic import.
 
 #### Demo
-[Click here to open demo page](https://ohsiwon.github.io/Webpack-React-Dynamic-Import-Boilerplate/example)
+[Click here to open demo page](https://ohsiwon.github.io/Webpack-React-Dynamic-Import-Demo-Boilerplate/example)
 * App shows 3 different characters and all of them are dynamically imported.
 * Each of character loads a different combinations of weapon.
 * Weapons are also dynamically imported **except knife**. 
